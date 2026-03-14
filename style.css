@@ -1,0 +1,152 @@
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f4f9ff;
+}
+
+header{
+background:linear-gradient(90deg,#0a3d91,#ff7b00);
+color:white;
+padding:20px;
+text-align:center;
+}
+
+nav{
+background:#0a3d91;
+padding:10px;
+text-align:center;
+}
+
+nav a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-weight:bold;
+}
+
+nav a:hover{
+color:orange;
+}
+
+.hero{
+background:url("https://images.unsplash.com/photo-1518770660439-4636190af475") center/cover;
+height:350px;
+display:flex;
+justify-content:center;
+align-items:center;
+flex-direction:column;
+color:white;
+text-shadow:2px 2px 5px black;
+}
+
+.tagline{
+font-size:40px;
+animation:fadeMove 3s infinite alternate;
+}
+
+@keyframes fadeMove{
+from{opacity:0; transform:translateY(-10px)}
+to{opacity:1; transform:translateY(10px)}
+}
+
+.container{
+padding:40px;
+max-width:1000px;
+margin:auto;
+}
+
+.points{
+background:white;
+padding:15px;
+margin:10px 0;
+border-left:5px solid orange;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#0a3d91;
+color:white;
+text-align:center;
+padding:15px;
+margin-top:40px;
+}
+
+button{
+background:#ff7b00;
+border:none;
+padding:10px 20px;
+color:white;
+cursor:pointer;
+}
+
+input,textarea{
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+.download{
+background:white;
+padding:15px;
+margin:10px;
+box-shadow:0 2px 5px rgba(0,0,0,0.1);
+}
+
+.chatbot{
+position:fixed;
+bottom:20px;
+right:20px;
+background:white;
+border:1px solid #ccc;
+padding:10px;
+width:250px;
+}
+.instructor{
+background:white;
+padding:30px;
+margin-top:30px;
+border-left:8px solid orange;
+box-shadow:0 3px 10px rgba(0,0,0,0.1);
+text-align:center;
+}
+
+.instructor h2{
+font-size:32px;
+color:#0a3d91;
+}
+
+.instructor p{
+font-size:18px;
+}
+
+.graphbox{
+background:white;
+padding:20px;
+margin-top:20px;
+box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
+
+video{
+margin-bottom:20px;
+display:block;
+}
+.chatbot{
+position:fixed;
+bottom:20px;
+right:20px;
+width:260px;
+background:white;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.2);
+padding:15px;
+}
+
+.chatbot input{
+width:100%;
+margin-top:10px;
+}
+
+.chatbot button{
+width:100%;
+margin-top:5px;
+}

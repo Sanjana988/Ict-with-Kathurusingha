@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Progress</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+<header>
+<h1>Progress Tracker</h1>
+</header>
+
+<div class="container">
+
+<h2>Personal Progress</h2>
+
+<!-- Input for marks -->
+<input id="markinput" placeholder="Enter Paper Mark">
+<button onclick="addMark()">Add Mark</button>
+
+<!-- Graph -->
+<div class="graphbox">
+<canvas id="progressChart"></canvas>
+</div>
+
+</div>
+
+<!-- Script -->
+<script src="script.js"></script>
+
+</body>
+</html>
